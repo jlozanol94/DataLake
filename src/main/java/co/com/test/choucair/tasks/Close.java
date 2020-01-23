@@ -13,7 +13,6 @@ import static co.com.test.choucair.userinterface.PageBuscarQVF.BTNCLOSE;
 public class Close implements Task {
 
     public Close(){}
-    @Override
     public <T extends Actor> void performAs(T actor) {
 
         actor.attemptsTo(Click.on(BTNCLOSE));

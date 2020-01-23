@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="AWS Data lake repository" skipped="0" tests="1" time="73.41" timestamp="2020-01-23 02:13:03"><testcase name="Perform record counts in Oracle, Athena and then compare"/></testsuite>

@@ -5,18 +5,23 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Open;
-import org.sikuli.script.Key;
-import org.sikuli.script.Screen;
+
+import java.awt.*;
+import java.awt.event.KeyEvent;
+
 
 public class OpenUp implements Task {
 
     HomePage homePage;
 
-    @Override
     public <T extends Actor> void performAs(T actor) {
-    Screen screen = new Screen();
-     actor.attemptsTo(Open.browserOn(homePage));
-       screen.type(Key.F5);
+        actor.attemptsTo(Open.browserOn(homePage));
+        try{
+            Robot robot = new Robot();
+            robot.keyPress(KeyEvent.VK_F5);
+        }catch(AWTException a){
+            a.printStackTrace();
+        }
     }
     public static OpenUp thePage(){
         return Tasks.instrumented(OpenUp.class);

@@ -1,5 +1,7 @@
 
-
+/*plugins {
+    id 'java'
+}*/
 repositories {
     mavenCentral()
 }
@@ -12,9 +14,7 @@ buildscript {
         classpath("net.serenity-bdd:serenity-gradle-plugin:1.9.9")
     }
 }
-/*plugins {
-    id 'java'
-}*/
+
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'net.serenity-bdd.aggregator'

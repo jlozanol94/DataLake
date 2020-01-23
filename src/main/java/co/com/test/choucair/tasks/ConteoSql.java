@@ -17,7 +17,6 @@ public class ConteoSql implements Task {
     public ConteoSql(List<String> data) {
         this.data = data;
     }
-    @Override
     public <T extends Actor> void performAs(T actor) {
 
         ConteoSqlServerEntity.loadDataForTransaction(data);
