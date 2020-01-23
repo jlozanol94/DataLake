@@ -111,7 +111,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-01-2020 15:48</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-01-2020 16:59</span>
     <br style="clear:left"/>
 </div>
 
@@ -159,9 +159,9 @@ I want to perform counts to compare Oracle vs. Aws Athena transactional system
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
                             <span class="test-case-title">
-                                <span class="error-color">Perform record counts in Oracle, Athena and then compare
+                                <span class="failing-color">Perform record counts in Oracle, Athena and then compare
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -184,8 +184,8 @@ I want to perform counts to compare Oracle vs. Aws Athena transactional system
     <div id="contenttilttle">
             <div class="screenshotFailure panel panel-danger">
 
-                        <div class="panel-heading title="Assertion error: Expected condition failed: waiting for By.xpath: //*[@id='show-service-overlay']/div[2]/div/div/div[2]/footer/div/button to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'CHMEPPF10MDYY', ip: '172.17.27.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'Driver info: driver.version: unknown">
-                            Assertion error: Expected condition failed: waiting for By.xpath: //*[@id='show-service-overlay']/div[2]/div/div/div[2]/footer/div/button to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.11.0', re...
+                        <div class="panel-heading title="Element should be enabled exception: The following error occurred: Expected enabled element was not enabled">
+                            Element should be enabled exception: The following error occurred: Expected enabled element was not enabled
                         </div>
                 <div><!-- Stack trace -->
                     <button type="button" class="btn btn-danger" data-toggle="modal"
@@ -203,18 +203,43 @@ I want to perform counts to compare Oracle vs. Aws Athena transactional system
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="stacktraceModalLabel">
-                                    java.lang.AssertionError
+                                    net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException
                                 </h4>
                             </div>
                             <div class="modal-body">
                                     <h5>
-                                        <pre>Expected condition failed: waiting for By.xpath: //*[@id=&quot;show-service-overlay&quot;]/div[2]/div/div/div[2]/footer/div/button to be displayed (tried for 5 second(s) with 100 milliseconds interval)<br>Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'<br>System info: host: 'CHMEPPF10MDYY', ip: '172.17.27.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'<br>Driver info: driver.version: unknown</pre>
+                                        <pre>The following error occurred: Expected enabled element was not enabled</pre>
                                     </h5>
-                                    co.com.test.choucair.stepdefinitions.PostStepDefinitions.executionCompleted(PostStepDefinitions.java
-                                    :39) <br>
-                                    ✽.Execution completedCerrar(src/test/resources/features/DataLakeRimac.feature
-                                    :12) <br>
+                                    co.com.test.choucair.interactions.ConteoSqlServer.performAs(ConteoSqlServer.java
+                                    :20) <br>
+                                    co.com.test.choucair.tasks.ConteoSql.performAs(ConteoSql.java
+                                    :23) <br>
+                                    co.com.test.choucair.stepdefinitions.PostStepDefinitions.theAnalystExecutedTheScripts(PostStepDefinitions.java
+                                    :33) <br>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                                    co.com.test.choucair.runners.RunnerPersonalizado.run(RunnerPersonalizado.java
+                                    :66) <br>
                             </div>
+
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"
+                                            aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title" id="stacktraceModalLabel">
+                                        Caused by: org.openqa.selenium.TimeoutException
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                        <pre>Expected condition failed: waiting for By.xpath: //div[@class='lui-dialog__header ng-scope']/button to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                                    <pre>
+                                        co.com.test.choucair.interactions.ConteoSqlServer.performAs(ConteoSqlServer.java :20) <br>
+                                        co.com.test.choucair.tasks.ConteoSql.performAs(ConteoSql.java :23) <br>
+                                        co.com.test.choucair.stepdefinitions.PostStepDefinitions.theAnalystExecutedTheScripts(PostStepDefinitions.java :33) <br>
+                                        cucumber.runner.Runner.runPickle(Runner.java :80) <br>
+                                        co.com.test.choucair.runners.RunnerPersonalizado.run(RunnerPersonalizado.java :66) <br>
+                                    </pre>
+                                </div>
 
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">
@@ -227,28 +252,12 @@ I want to perform counts to compare Oracle vs. Aws Athena transactional system
 
 
                 <div class="panel-body">
-                    <a href="pagesource4581371639810023706.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                    <a href="pagesource1187530231546071083.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
                 </div>
             </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="77f54109118c78b0cf775ee006337f7aeb039c637394dfb0608fe82a16706145.png" title="Given The Data Analyst wants to run a Qlik Sense scripts" width="1366"/>
-                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Jorge opens the Home page" width="1366"/>
-                <img src="fb29aa56e0b67f03a1d143b613a4fefc51030edf21dc77a04207eef41301b211.png" title="When The analyst executed the scripts
-| ConteosOracleVsAthena |" width="1366"/>
-                <img src="e106e3b4ba9f3efded32ba186174070a63c433f9ca0da3f2e7a0f329f5782a34.png" title="Jorge clicks on Click Comparar Planos" width="1366"/>
-                <img src="e106e3b4ba9f3efded32ba186174070a63c433f9ca0da3f2e7a0f329f5782a34.png" title="Then Buscar QVF should be an element that is visible" width="1366"/>
-                <img src="cc61c44c136e536df636dbfbad846a5d01a8ec8e2281ae590c0dc9a8460760ca.png" title="Jorge clicks on Buscar QVF" width="1366"/>
-                <img src="4d4bdf3f6f52e2533e8744f27f1a88ae14eca322fb01a924b3c5652bbe82f577.png" title="Jorge enters 'ConteosOracleVsAthena' into Ingresar nombre de QVF" width="1366"/>
-                <img src="167abac36b6b988d0025c9e9695d3f28385913fcc448d6b8af79a7d26ab928c1.png" title="Then Click en el QVF should be an element that is visible" width="1366"/>
-                <img src="54fe674afa0dfc27006603482e7942a1dcd5f3da10df25e90d60a7a71d75caea.png" title="Jorge clicks on Click en el QVF" width="1366"/>
-                <img src="51abd7051f9693e8664e25266cb0554357fa3c3edf98f36fe826fd17bae60140.png" title="Then Click OPCIONES should be an element that is visible" width="1366"/>
-                <img src="f9ba8d6a4c0fdcb0e48840d5ac1997002b1e11c49e0b04882297d1039a55650c.png" title="Jorge clicks on Click OPCIONES" width="1366"/>
-                <img src="f9ba8d6a4c0fdcb0e48840d5ac1997002b1e11c49e0b04882297d1039a55650c.png" title="Then Click EDITOR DE DATOS should be an element that is visible" width="1366"/>
-                <img src="33c641179eccd501defe13c453091f4065c48e2e1c18e48f074725ec2b16f313.png" title="Jorge clicks on Click EDITOR DE DATOS" width="1366"/>
-                <img src="57377a0d1d70afa2bfd01fe69e6f60a864c7ed872cf497492a4375fa804cf37f.png" title="Then Click en CARGAR DATOS should be an element that is visible" width="1366"/>
-                <img src="809afe841933b87c4c943fba4315d085c637ddb39ac8689e1264d2b022cbaaea.png" title="Jorge clicks on Click en CARGAR DATOS" width="1366"/>
-                <img src="7d78da93329a1bbbc7f6e57ca5179f5288a445ce9647c9d3c71bd52b473dcc97.png" title="Then check q: <span class='error-color'>ERROR</span>" width="1366"/>
+                <img src="90e5d9f7b885e95953a3be11d204402f8e6ae3b09a6b8b935626679809209707.png" title="Jorge clicks on Click Comparar Planos: <span class='failing-color'>FAILURE</span>" width="1366"/>
             </div>
         </div>
 
