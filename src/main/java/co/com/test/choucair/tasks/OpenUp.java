@@ -5,8 +5,6 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Open;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
@@ -15,11 +13,7 @@ public class OpenUp implements Task {
     HomePage homePage;
 
     public <T extends Actor> void performAs(T actor) {
-//        actor.attemptsTo(Open.browserOn(homePage));
-
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-        driver.get("http://localhost:4848/hub");
+        actor.attemptsTo(Open.browserOn(homePage));
 
         try{
             Robot robot = new Robot();
