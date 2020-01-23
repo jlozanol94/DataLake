@@ -1,1 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="AWS Data lake repository" skipped="0" tests="1" time="39.07" timestamp="2020-01-23 03:28:46"><testcase name="Perform record counts in Oracle, Athena and then compare"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="AWS Data lake repository" skipped="0" tests="1" time="46.24" timestamp="2020-01-23 03:48:51"><testcase name="Perform record counts in Oracle, Athena and then compare"><error message="Expected condition failed: waiting for By.xpath: //*[@id=&quot;show-service-overlay&quot;]/div[2]/div/div/div[2]/footer/div/button to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'CHMEPPF10MDYY', ip: '172.17.27.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'&#10;Driver info: driver.version: unknown" type="java.lang.AssertionError">Expected condition failed: waiting for By.xpath: //*[@id="show-service-overlay"]/div[2]/div/div/div[2]/footer/div/button to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPPF10MDYY', ip: '172.17.27.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for By.xpath: //*[@id="show-service-overlay"]/div[2]/div/div/div[2]/footer/div/button to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPPF10MDYY', ip: '172.17.27.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: unknown&#13;
+co.com.test.choucair.stepdefinitions.PostStepDefinitions.executionCompleted(PostStepDefinitions.java:39)&#13;
+✽.Execution completedCerrar(src/test/resources/features/DataLakeRimac.feature:12)&#13;
+</system-err></testcase></testsuite>

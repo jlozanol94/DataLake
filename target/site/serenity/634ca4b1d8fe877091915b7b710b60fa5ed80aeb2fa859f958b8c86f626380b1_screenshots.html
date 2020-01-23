@@ -111,7 +111,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-01-2020 15:28</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-01-2020 15:48</span>
     <br style="clear:left"/>
 </div>
 
@@ -159,9 +159,9 @@ I want to perform counts to compare Oracle vs. Aws Athena transactional system
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">Perform record counts in Oracle, Athena and then compare
+                                <span class="error-color">Perform record counts in Oracle, Athena and then compare
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -182,27 +182,73 @@ I want to perform counts to compare Oracle vs. Aws Athena transactional system
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Assertion error: Expected condition failed: waiting for By.xpath: //*[@id='show-service-overlay']/div[2]/div/div/div[2]/footer/div/button to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'CHMEPPF10MDYY', ip: '172.17.27.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'Driver info: driver.version: unknown">
+                            Assertion error: Expected condition failed: waiting for By.xpath: //*[@id='show-service-overlay']/div[2]/div/div/div[2]/footer/div/button to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.11.0', re...
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    java.lang.AssertionError
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>Expected condition failed: waiting for By.xpath: //*[@id=&quot;show-service-overlay&quot;]/div[2]/div/div/div[2]/footer/div/button to be displayed (tried for 5 second(s) with 100 milliseconds interval)<br>Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'<br>System info: host: 'CHMEPPF10MDYY', ip: '172.17.27.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'<br>Driver info: driver.version: unknown</pre>
+                                    </h5>
+                                    co.com.test.choucair.stepdefinitions.PostStepDefinitions.executionCompleted(PostStepDefinitions.java
+                                    :39) <br>
+                                    ✽.Execution completedCerrar(src/test/resources/features/DataLakeRimac.feature
+                                    :12) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource4581371639810023706.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="4fd843b206b85d11c4fc640af820270848c56e250e80c8598ed53fdac51ea88e.png" title="Perform record counts in Oracle, Athena and then compare #1: {id=1, escenarios=Verificacion conteos Athena, nombreQvf=ConteosOracleVsAthena}" width="1366"/>
-                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Given The Data Analyst wants to run a Qlik Sense scripts" width="1366"/>
+                <img src="77f54109118c78b0cf775ee006337f7aeb039c637394dfb0608fe82a16706145.png" title="Given The Data Analyst wants to run a Qlik Sense scripts" width="1366"/>
                 <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Jorge opens the Home page" width="1366"/>
-                <img src="10a96d71273c11c4787270fc9c44b80141fd38e95b97c04ee0bf6af66793aeec.png" title="When The analyst executed the scripts
+                <img src="fb29aa56e0b67f03a1d143b613a4fefc51030edf21dc77a04207eef41301b211.png" title="When The analyst executed the scripts
 | ConteosOracleVsAthena |" width="1366"/>
                 <img src="e106e3b4ba9f3efded32ba186174070a63c433f9ca0da3f2e7a0f329f5782a34.png" title="Jorge clicks on Click Comparar Planos" width="1366"/>
                 <img src="e106e3b4ba9f3efded32ba186174070a63c433f9ca0da3f2e7a0f329f5782a34.png" title="Then Buscar QVF should be an element that is visible" width="1366"/>
-                <img src="ffcbdd81b08e6b8effb87dfcbba92dfcd062d710e6732eec8b7a2265f10b5886.png" title="Jorge clicks on Buscar QVF" width="1366"/>
-                <img src="ef771e8ed16c6017d211f3855da28ff9978c3cf75d937d4c98b4f5366ef398d7.png" title="Jorge enters 'ConteosOracleVsAthena' into Ingresar nombre de QVF" width="1366"/>
-                <img src="a5537dd58b7f5d396e80f110a7ff54be1f3d855a3067316b98b027d8f5eecea3.png" title="Then Click en el QVF should be an element that is visible" width="1366"/>
-                <img src="8e282f7b859628ce7bc6169651be0981e2f7caee379fe8d7899e5c2c366f722a.png" title="Jorge clicks on Click en el QVF" width="1366"/>
-                <img src="67257a1031e95d05c608428ff25593f676100e569001c1725accd3c1166ee0e2.png" title="Then Click OPCIONES should be an element that is visible" width="1366"/>
-                <img src="d0b5f7ea8bc48cf743fa6e0c599425ba6f9ff0f9406bcefcdd4c111c64586c8e.png" title="Jorge clicks on Click OPCIONES" width="1366"/>
-                <img src="d0b5f7ea8bc48cf743fa6e0c599425ba6f9ff0f9406bcefcdd4c111c64586c8e.png" title="Then Click EDITOR DE DATOS should be an element that is visible" width="1366"/>
-                <img src="116cc7210fca70ef5e1866f0120443e8ff3883232541ef0acdce6a4047d90bea.png" title="Jorge clicks on Click EDITOR DE DATOS" width="1366"/>
-                <img src="d27e0a50911b5429b2b214b65bea98919e37dd29c03a017b22dde9e4cf8a7e35.png" title="Then Click en CARGAR DATOS should be an element that is visible" width="1366"/>
-                <img src="5074d1759846c205cf01e02507e96502082157c611b125bb3ccd783ff3d5bd87.png" title="Jorge clicks on Click en CARGAR DATOS" width="1366"/>
-                <img src="4fd843b206b85d11c4fc640af820270848c56e250e80c8598ed53fdac51ea88e.png" title="Then Execution completedCerrar" width="1366"/>
-                <img src="4fd843b206b85d11c4fc640af820270848c56e250e80c8598ed53fdac51ea88e.png" title="Then check q: <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="cc61c44c136e536df636dbfbad846a5d01a8ec8e2281ae590c0dc9a8460760ca.png" title="Jorge clicks on Buscar QVF" width="1366"/>
+                <img src="4d4bdf3f6f52e2533e8744f27f1a88ae14eca322fb01a924b3c5652bbe82f577.png" title="Jorge enters 'ConteosOracleVsAthena' into Ingresar nombre de QVF" width="1366"/>
+                <img src="167abac36b6b988d0025c9e9695d3f28385913fcc448d6b8af79a7d26ab928c1.png" title="Then Click en el QVF should be an element that is visible" width="1366"/>
+                <img src="54fe674afa0dfc27006603482e7942a1dcd5f3da10df25e90d60a7a71d75caea.png" title="Jorge clicks on Click en el QVF" width="1366"/>
+                <img src="51abd7051f9693e8664e25266cb0554357fa3c3edf98f36fe826fd17bae60140.png" title="Then Click OPCIONES should be an element that is visible" width="1366"/>
+                <img src="f9ba8d6a4c0fdcb0e48840d5ac1997002b1e11c49e0b04882297d1039a55650c.png" title="Jorge clicks on Click OPCIONES" width="1366"/>
+                <img src="f9ba8d6a4c0fdcb0e48840d5ac1997002b1e11c49e0b04882297d1039a55650c.png" title="Then Click EDITOR DE DATOS should be an element that is visible" width="1366"/>
+                <img src="33c641179eccd501defe13c453091f4065c48e2e1c18e48f074725ec2b16f313.png" title="Jorge clicks on Click EDITOR DE DATOS" width="1366"/>
+                <img src="57377a0d1d70afa2bfd01fe69e6f60a864c7ed872cf497492a4375fa804cf37f.png" title="Then Click en CARGAR DATOS should be an element that is visible" width="1366"/>
+                <img src="809afe841933b87c4c943fba4315d085c637ddb39ac8689e1264d2b022cbaaea.png" title="Jorge clicks on Click en CARGAR DATOS" width="1366"/>
+                <img src="7d78da93329a1bbbc7f6e57ca5179f5288a445ce9647c9d3c71bd52b473dcc97.png" title="Then check q: <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 
