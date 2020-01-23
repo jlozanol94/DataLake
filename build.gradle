@@ -51,7 +51,7 @@ dependencies {
     compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.6.1'
 }
 gradle.startParameter.continueOnFailure = true
-group 'Pruebas'
+group 'Pruebas2'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8

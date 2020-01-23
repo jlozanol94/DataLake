@@ -111,7 +111,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-01-2020 14:13</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-01-2020 15:01</span>
     <br style="clear:left"/>
 </div>
 
@@ -159,9 +159,9 @@ I want to perform counts to compare Oracle vs. Aws Athena transactional system
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">Perform record counts in Oracle, Athena and then compare
+                                <span class="error-color">Perform record counts in Oracle, Athena and then compare
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -182,27 +182,64 @@ I want to perform counts to compare Oracle vs. Aws Athena transactional system
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="No such window exception: The following error occurred: no such window: target window already closedfrom unknown error: web view not found  (Session info: chrome=79.0.3945.130)  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'CHMEPPF10MDYY', ip: '172.17.27.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\jlozano\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65369}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 79.0.3945.130, webStorageEnabled: true}Session ID: 73d15361bef1e791fbe89b7f0a6526c6*** Element info: {Using=xpath, value=//div[@class='lui-dialog__header ng-scope']/button}">
+                            No such window exception: The following error occurred: no such window: target window already closedfrom unknown error: web view not found  (Session info: chrome=79.0.3945.130)  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a5...
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    org.openqa.selenium.NoSuchWindowException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>The following error occurred: no such window: target window already closed<br>from unknown error: web view not found<br>  (Session info: chrome=79.0.3945.130)<br>  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)<br>Command duration or timeout: 0 milliseconds<br>Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'<br>System info: host: 'CHMEPPF10MDYY', ip: '172.17.27.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'<br>Driver info: org.openqa.selenium.remote.RemoteWebDriver<br>Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\Users\jlozano\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65369}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 79.0.3945.130, webStorageEnabled: true}<br>Session ID: 73d15361bef1e791fbe89b7f0a6526c6<br>*** Element info: {Using=xpath, value=//div[@class='lui-dialog__header ng-scope']/button}</pre>
+                                    </h5>
+                                    co.com.test.choucair.interactions.ConteoSqlServer.performAs(ConteoSqlServer.java
+                                    :20) <br>
+                                    co.com.test.choucair.tasks.ConteoSql.performAs(ConteoSql.java
+                                    :23) <br>
+                                    co.com.test.choucair.stepdefinitions.PostStepDefinitions.theAnalystExecutedTheScripts(PostStepDefinitions.java
+                                    :33) <br>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                                    co.com.test.choucair.runners.RunnerPersonalizado.run(RunnerPersonalizado.java
+                                    :66) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="8e209eaf92ae01ccafba8a3b9e25ca694ad573d8c6367773f933f5e754b37565.png" title="Perform record counts in Oracle, Athena and then compare #1: {id=1, escenarios=Verificacion conteos Athena, nombreQvf=ConteosOracleVsAthena}" width="1366"/>
-                <img src="90e5d9f7b885e95953a3be11d204402f8e6ae3b09a6b8b935626679809209707.png" title="Given The Data Analyst wants to run a Qlik Sense scripts" width="1366"/>
-                <img src="90e5d9f7b885e95953a3be11d204402f8e6ae3b09a6b8b935626679809209707.png" title="Jorge opens the Home page" width="1366"/>
-                <img src="7971e12bcc18b3157cee16098b5a7ce7d7b6ab84797004b13b55e287b9317409.png" title="When The analyst executed the scripts
-| ConteosOracleVsAthena |" width="1366"/>
-                <img src="32deb591c72f29626245d9325c0d1dfed4a16f6011aa25ad7b4c2693bd5a7571.png" title="Jorge clicks on Click Comparar Planos" width="1366"/>
-                <img src="d6d07deb3e0c4700de8616ea431066084ad452ecfc33338faea56d8a1daba6bb.png" title="Then Buscar QVF should be an element that is visible" width="1366"/>
-                <img src="175613efda7523deee1cfa2cb213c872fb3dd0679a37e120e230ea5cb6d7221a.png" title="Jorge clicks on Buscar QVF" width="1366"/>
-                <img src="d49c2b97df2633fa95dfe8a74be4da9bd7f75709ed6757fbea491404483f4733.png" title="Jorge enters 'ConteosOracleVsAthena' into Ingresar nombre de QVF" width="1366"/>
-                <img src="c326578e02d9870f149f99547e8eda862f075a7e48657423b5e330f1006f400d.png" title="Then Click en el QVF should be an element that is visible" width="1366"/>
-                <img src="e17d8c3be43b99034ae8c49b21367448ff9e9cd6a3b0fa1076f0716259603ab8.png" title="Jorge clicks on Click en el QVF" width="1366"/>
-                <img src="9ebdc48acd5771864b95bc5d8502c79272ef8e793c0eb0a6032f37c8c1d8241c.png" title="Then Click OPCIONES should be an element that is visible" width="1366"/>
-                <img src="922c71865c0c1d1c632dfd0a2c4479698c3a0c5e9cd75f9cc69ba136f449a358.png" title="Jorge clicks on Click OPCIONES" width="1366"/>
-                <img src="922c71865c0c1d1c632dfd0a2c4479698c3a0c5e9cd75f9cc69ba136f449a358.png" title="Then Click EDITOR DE DATOS should be an element that is visible" width="1366"/>
-                <img src="0938444c3440b1fdc9b9c1ba713930745b53fa253294b453291a0d7800950b4a.png" title="Jorge clicks on Click EDITOR DE DATOS" width="1366"/>
-                <img src="ce0f7d010bff9cc167377dad43a28976c12e78121166ae80d97d87e2caf7447b.png" title="Then Click en CARGAR DATOS should be an element that is visible" width="1366"/>
-                <img src="b2036c5f0b4a88a61701cd43ce33cf3ef9840b1980b730153e69f5f7069fd240.png" title="Jorge clicks on Click en CARGAR DATOS" width="1366"/>
-                <img src="8e209eaf92ae01ccafba8a3b9e25ca694ad573d8c6367773f933f5e754b37565.png" title="Then Execution completedCerrar" width="1366"/>
-                <img src="8e209eaf92ae01ccafba8a3b9e25ca694ad573d8c6367773f933f5e754b37565.png" title="Then check q: <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Given The Data Analyst wants to run a Qlik Sense scripts" width="1366"/>
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Jorge opens the Home page: <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 
