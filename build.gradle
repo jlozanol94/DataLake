@@ -1,6 +1,4 @@
-plugins {
-    id 'java'
-}
+
 
 repositories {
     mavenCentral()
@@ -14,7 +12,9 @@ buildscript {
         classpath("net.serenity-bdd:serenity-gradle-plugin:1.9.9")
     }
 }
-
+/*plugins {
+    id 'java'
+}*/
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'net.serenity-bdd.aggregator'
@@ -41,8 +41,6 @@ dependencies {
     implementation 'net.serenity-bdd:serenity-cucumber:1.9.5'
     implementation 'net.serenity-bdd:serenity-screenplay:1.9.9'
     implementation 'net.serenity-bdd:serenity-screenplay-webdriver:1.9.9'
-    implementation files('src/test/resources/lib/sikulixapi.jar')
-
     compile group: 'org.apache.poi', name: 'poi', version: '3.17'
     compile group: 'org.apache.poi', name: 'poi-ooxml', version: '3.17'
     compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.6.1'
