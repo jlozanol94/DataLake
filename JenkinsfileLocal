@@ -1,0 +1,42 @@
+import java.text.SimpleDateFormat
+
+def dateFormat = new SimpleDateFormat("yyyyMMddHHmm")
+def date = new Date()
+def timestamp = dateFormat.format(date).toString()
+
+pipeline{
+	//En el servidor se debe dejar activo el agent con label NodoWindows10Advance, de manera local agent any y el otro comentado
+	agent any
+
+	stages{
+		stage('Actualizar fuentes Nodo Windows') {
+		 	steps{
+
+		 	checkout([$class: 'GitSCM', branches: [[name: "master"]],
+                            doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [
+                            [credentialsId: "jlozanol94", url: "https://github.com/ramirojpimentel/qliksense.git"]
+                            ]])
+		 		//git url: 'https://github.com/ramirojpimentel/qliksense.git'
+			}
+		}
+
+		stage('Git'){
+				steps{
+					script{
+						try{
+							//sh aplica para servidor y bat para pruebas locales
+							//sh ("gradle clean test aggregate")
+							bat ("gradle clean test aggregate")
+						 	echo 'Ha ejecutado sin fallo hasta test junit'
+						}
+						catch(ex)
+						{    
+	    					echo 'Finalizo ejecucion de framework junit con fallos'
+	    					error('Failed')
+						}
+					}
+				}
+			}
+
+		}
+}
