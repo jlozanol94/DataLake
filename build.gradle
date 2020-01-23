@@ -5,9 +5,7 @@ repositories {
 
     jcenter()
     mavenLocal()
-    flatDir {
-        dirs 'lib'
-    }
+
 }
 buildscript {
     repositories {
