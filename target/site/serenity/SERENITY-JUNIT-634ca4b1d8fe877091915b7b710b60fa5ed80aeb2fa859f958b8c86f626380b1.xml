@@ -1,7 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="AWS Data lake repository" skipped="0" tests="1" time="38.99" timestamp="2020-01-23 04:59:15"><testcase name="Perform record counts in Oracle, Athena and then compare"><failure message="The following error occurred: Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">The following error occurred: Expected enabled element was not enabled</failure><system-err>The following error occurred: Expected enabled element was not enabled&#13;
-co.com.test.choucair.interactions.ConteoSqlServer.performAs(ConteoSqlServer.java:20)&#13;
-co.com.test.choucair.tasks.ConteoSql.performAs(ConteoSql.java:23)&#13;
-co.com.test.choucair.stepdefinitions.PostStepDefinitions.theAnalystExecutedTheScripts(PostStepDefinitions.java:33)&#13;
-cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
-co.com.test.choucair.runners.RunnerPersonalizado.run(RunnerPersonalizado.java:66)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="AWS Data lake repository" skipped="0" tests="1" time="29.95" timestamp="2020-02-12 03:14:43"><testcase name="Perform record counts in Oracle, Athena and then compare"/></testsuite>

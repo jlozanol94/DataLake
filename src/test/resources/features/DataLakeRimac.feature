@@ -10,6 +10,9 @@ Feature: AWS Data lake repository
       When  The analyst executed the scripts
        | <nombreQvf> |
       Then  Execution completedCerrar
+       And paso final2
+       And verificacion final Search index creation completed successfully
+
     Examples:
       | id | escenarios | nombreQvf |
       ##@externaldata@./src/test/resources/DataDriven/EjecucionQlikSenseMedellin.xlsx@QlikSenseMedellin@1
