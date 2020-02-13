@@ -6,8 +6,10 @@ def timestamp = dateFormat.format(date).toString()
 
 pipeline{
 	//En el servidor se debe dejar activo el agent con label NodoWindows10Advance, de manera local agent any y el otro comentado
-	agent any
-
+	agent
+    {
+        label '172.17.27.227'
+    }
 	stages{
 		stage('Actualizar fuentes Nodo Windows') {
 		 	steps{
