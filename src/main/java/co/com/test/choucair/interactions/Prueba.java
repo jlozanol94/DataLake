@@ -13,7 +13,6 @@ public class Prueba implements Interaction {
         File f = new File(Constants.path2);
         File[] files = f.listFiles();
         String ultimo_log = files[files.length-1].getName();
-        System.out.printf("sdds"+ultimo_log);
 
     }
     public static Prueba  prueba2() { return Tasks.instrumented(Prueba.class); }

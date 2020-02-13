@@ -51,6 +51,5 @@ public class PostStepDefinitions {
     @And("^verificacion final(.*)$")
     public void verificacionFinal(String questionr) {
         theActorInTheSpotlight().should(seeThat(CheckR.is(questionr)));
-       // theActorInTheSpotlight().attemptsTo(MoverArchivoMove.inThePageFinacle());
     }
 }

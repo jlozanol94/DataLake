@@ -32,6 +32,7 @@ public class CheckR implements Question<Boolean>
         }
 
         String message = milista.get(milista.size() - 2);
+        System.out.printf("ndnds"+message);
         return message.contains(word);
     }
 }
