@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="AWS Data lake repository" skipped="0" tests="1" time="30.11" timestamp="2020-02-13 01:45:25"><testcase name="Perform record counts in Oracle, Athena and then compare"><failure message="Expected net.serenitybdd.screenplay.QuestionSubject@75c88639&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">Expected net.serenitybdd.screenplay.QuestionSubject@75c88639
-Expected: is &lt;true&gt;
-     but: was &lt;false&gt;</failure><system-err>Expected net.serenitybdd.screenplay.QuestionSubject@75c88639
-Expected: is &lt;true&gt;
-     but: was &lt;false&gt;&#13;
-co.com.test.choucair.stepdefinitions.PostStepDefinitions.verificacionFinal(PostStepDefinitions.java:53)&#13;
-✽.verificacion final Search index creation completed successfully(src/test/resources/features/DataLakeRimac.feature:14)&#13;
-</system-err></testcase></testsuite>

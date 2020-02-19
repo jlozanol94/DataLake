@@ -3,7 +3,6 @@ package co.com.test.choucair.stepdefinitions;
 import co.com.test.choucair.questions.CheckQ;
 import co.com.test.choucair.questions.CheckR;
 import co.com.test.choucair.tasks.ConteoSql;
-import co.com.test.choucair.tasks.MoverArchivoMove;
 import co.com.test.choucair.tasks.OpenUp;
 import co.com.test.choucair.tasks.Prueba2;
 import cucumber.api.java.Before;
