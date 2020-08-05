@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="AWS Data lake repository" skipped="0" tests="1" time="45.58" timestamp="2020-08-05 02:06:02"><testcase name="Perform record counts in Oracle, Athena and then compare"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="AWS Data lake repository" skipped="0" tests="1" time="12.06" timestamp="2020-08-05 02:18:39"><testcase name="Perform record counts in Oracle, Athena and then compare"><error message="The following error occurred: no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=84.0.4147.105)&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'CHMEPCX07XS2', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\jlozano\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 10995c564d63c105605e8ae8a4a23f5d" type="org.openqa.selenium.NoSuchWindowException">The following error occurred: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPCX07XS2', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\jlozano\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 10995c564d63c105605e8ae8a4a23f5d</error><system-err>The following error occurred: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPCX07XS2', ip: '192.168.1.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\jlozano\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 10995c564d63c105605e8ae8a4a23f5d&#13;
+co.com.test.choucair.tasks.OpenUp.performAs(OpenUp.java:16)&#13;
+co.com.test.choucair.stepdefinitions.PostStepDefinitions.theDataAnalystWantsToRunAQlikSenseScripts(PostStepDefinitions.java:30)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+co.com.test.choucair.runners.RunnerPersonalizado.run(RunnerPersonalizado.java:66)&#13;
+</system-err></testcase></testsuite>
