@@ -21,7 +21,7 @@ public class ConteoOracleVsAthena {
     }
 
     @BeforeSuite
-    public static void test() throws InvalidFormatException, IOException {
+    public static void test() throws  IOException {
         DataToFeature.overrideFeatureFiles("src/test/resources/features/DataLakeRimac.feature");
     }
 

@@ -30,9 +30,7 @@ public class CheckR implements Question<Boolean>
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         String message = milista.get(milista.size() - 2);
-        System.out.printf("ndnds"+message);
         return message.contains(word);
     }
 }

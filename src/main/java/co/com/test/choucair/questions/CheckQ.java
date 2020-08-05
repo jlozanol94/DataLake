@@ -18,10 +18,14 @@ public class CheckQ implements Question<Boolean>
     }
     @Override
     public Boolean answeredBy(Actor actor) {
+        System.out.println(BTNCLOSE);
         String text = Text.of(BTNCLOSE).viewedBy(actor).asString();
+        System.out.println(text);
+
        do {
            word.equals(text );
            text = Text.of(BTNCLOSE).viewedBy(actor).asString();
+
         } while (!word.equals(text ));
         return word.equals(text );
     }

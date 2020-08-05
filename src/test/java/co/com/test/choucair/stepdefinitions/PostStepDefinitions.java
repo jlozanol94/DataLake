@@ -37,8 +37,8 @@ public class PostStepDefinitions {
 
     @Then("^Execution completed(.*)$")
     public void executionCompleted(String questionv) {
-
         theActorInTheSpotlight().should(seeThat(CheckQ.is(questionv)));
+
     }
 
     @And("^paso final2$")

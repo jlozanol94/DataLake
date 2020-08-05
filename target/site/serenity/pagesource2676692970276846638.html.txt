@@ -1,0 +1,350 @@
+<html lang="es-ES" class="touch-off"><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><script type="text/javascript">function modifyScriptEl(elem) {
+      var newEl = document.createElement('script');
+      var filePath = elem.src.replace('../resources/', '');
+      newEl.type = 'text/javascript';
+      newEl.src = '../' + 'resources/' + filePath; // Must not be written as '../resources/' as Caddy will replace that pattern when a CDN is used
+      document.body.setAttribute('data-fallback-requested', true);
+      document.body.appendChild(newEl);
+    }
+
+    function modifyLinkEl(elem) {
+      var newEl = document.createElement('link');
+      var filePath = elem.href.replace('../resources/', '');
+      newEl.type = 'text/css';
+      newEl.rel = 'stylesheet';
+      newEl.href = '../' + 'resources/' + filePath; // Must not be written as '../resources/' as Caddy will replace that pattern when a CDN is used
+      document.head.appendChild(newEl);
+    }</script><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><title>ConteosOracleVsAthena | Vista general de app - Qlik Sense</title><meta charset="utf-8"><meta name="HandheldFriendly" content="True"><meta name="MobileOptimized" content="320"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no"><meta http-equiv="cleartype" content="on"><base href="./../"><link id="favicon" rel="shortcut icon" href="../resources/favicon.ico"><link rel="apple-touch-icon" href="../resources/img/core/logo/Sense_120x120.png"><link rel="apple-touch-icon" sizes="152x152" href="../resources/img/core/logo/Sense_152x152.png"><link rel="apple-touch-icon" sizes="167x167" href="../resources/img/core/logo/Sense_167x167.png"><link rel="apple-touch-icon" sizes="180x180" href="../resources/img/core/logo/Sense_180x180.png"><link href="../resources/app/app.9071d474662a359443ee.css" rel="stylesheet" onerror="modifyLinkEl(this)"><script charset="utf-8" src="../resources/underscore.b063af8a5e982043be10.js"></script><script charset="utf-8" src="../resources/responsive-state.38de3008ccf2bc5ad9f9.js"></script><script charset="utf-8" src="../resources/material-ui.5ad927628fea9049b154.js"></script><script charset="utf-8" src="../resources/react.180a04e1f896c7f9ecbe.js"></script><script charset="utf-8" src="../resources/angular.f3474dac8e69fe28e273.js"></script><script charset="utf-8" src="../resources/angular-lui.7945edabc551d88c504c.js"></script><script charset="utf-8" src="../resources/touchejs.2d619341d43fb0a6750f.js"></script><script charset="utf-8" src="../resources/jquery.bf8cceafaab573f4671f.js"></script><script charset="utf-8" src="../resources/qvangular.38ae0bf94b8cab896a5c.js"></script><style>.vs-repeat-wheel-helper{position: absolute;top: 0;bottom: 0;left: 0;right: 0;z-index: 99999;background: rgba(0, 0, 0, 0);}.vs-repeat-repeated-element{position: absolute;z-index: 1;}</style><script charset="utf-8" src="../resources/ng-aria.89c2326a49a1e1699817.js"></script><script charset="utf-8" src="../resources/picasso.5ec8bef092881087f19e.js"></script><script charset="utf-8" src="../resources/nebula.0a3cc764be8869bbe859.js"></script><script charset="utf-8" src="../resources/jquery-ui.96643a08e15c46f1c22e.js"></script><script charset="utf-8" src="../resources/react-leonardo-ui.83c59e357ea79a2d0bec.js"></script><script charset="utf-8" src="../resources/enigma.6097683a318e96850ee6.js"></script><script charset="utf-8" src="../resources/codemirror.40d069f490b5755c3082.js"></script><script charset="utf-8" src="../resources/sir-trevor.b95be41ced76746af5d0.js"></script><script charset="utf-8" src="../resources/qlikmetrics.91298106af01b560223f.js"></script><script charset="utf-8" src="../resources/js-sha256.2e6a119ba6e61cdcd631.js"></script><script charset="utf-8" src="../resources/qlik-modifiers.177c65100ca746739f2b.js"></script><script charset="utf-8" src="../resources/swagger-client.700915f973d70af92bbc.js"></script><script charset="utf-8" src="../resources/d3.8bb6975abfcaa36605a5.js"></script><script charset="utf-8" src="../resources/requirejs.375b58fb3198cab31fc9.js"></script><link rel="stylesheet" type="text/css" href="../resources/setup-view.f89aa1a990f040eed203.css"><script charset="utf-8" src="../resources/setup-view.f5ac90705690360a4ad2.js"></script><style></style><style type="text/css"></style><style type="text/css">/* Sense Default theme. */
+/* Sense Default theme. */
+.qv-codearea .cm-s-default span.cm-normaltext {
+  color: #000000;
+}
+.qv-codearea .cm-s-default span.cm-string {
+  color: #44751d;
+}
+.qv-codearea .cm-s-default span.cm-number {
+  color: #3a7391;
+}
+.qv-codearea .cm-s-default span.cm-operator {
+  color: #000000;
+}
+.qv-codearea .cm-s-default span.cm-keyword {
+  color: #6A8FDE;
+  font-weight: bold;
+}
+.qv-codearea .cm-s-default span.cm-function {
+  color: #6A8FDE;
+  font-weight: bold;
+}
+.qv-codearea .cm-s-default span.cm-comment {
+  color: #808080;
+  font-style: italic;
+}
+.qv-codearea .cm-s-default span.cm-field {
+  color: #CC9966;
+  font-weight: bold;
+}
+.qv-codearea .cm-s-default span.cm-table {
+  color: #8e477d;
+  font-weight: bold;
+}
+.qv-codearea .cm-s-default span.cm-variable {
+  color: #CC99CC;
+  font-weight: bold;
+}
+.qv-codearea .cm-s-default span.cm-template {
+  color: #ffb0b0;
+  font-style: italic;
+}
+.cm-codearea-expression-missing {
+  border-bottom: 2px solid #f05555;
+}
+.cm-servererror {
+  text-shadow: 2px 2px 10px #f05555;
+}
+.cm-error {
+  color: #522121;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px #f05555;
+  border-bottom: 1px dashed #f05555;
+}
+.cm-posterror {
+  text-shadow: 2px 2px 5px #f05555;
+}
+.qv-codearea .cm-s-default span.CodeMirror-matchingbracket {
+  color: #ffce26;
+  font-weight: bold;
+}
+.qv-bnf-autocomplete-container {
+  pointer-events: auto;
+  z-index: 1022;
+  padding: 1px;
+  position: absolute;
+  border-radius: 3px;
+  border: 1px solid #808080;
+  background: #FFFFFF;
+  font-size: 12px;
+  height: auto;
+}
+.qv-bnf-autocomplete-container .title {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+.qv-bnf-autocomplete-container .complete-container {
+  position: relative;
+  display: inline-block;
+}
+.qv-bnf-autocomplete-container .help-container {
+  position: relative;
+  display: inline-block;
+}
+.qv-bnf-autocomplete-container.hint-help-left .hint-help-container {
+  right: auto;
+  left: 0;
+}
+.qv-bnf-autocomplete-container.hint-help-left .hint-help-container .hint-help-content {
+  left: auto;
+  right: 5px;
+}
+.qv-bnf-autocomplete-container .hint-help-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  overflow: visible;
+}
+.qv-bnf-autocomplete-container .hint-help-container .hint-help-content {
+  position: absolute;
+  left: 5px;
+  width: 200px;
+  line-height: normal;
+  padding: 2px 5px;
+  border-radius: 3px;
+  background: #ffb;
+  font-size: 12px;
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  -webkit-transition: opacity 0.25s;
+  -moz-transition: opacity 0.25s;
+  -o-transition: opacity 0.25s;
+  transition: opacity 0.25s;
+  pointer-events: none;
+}
+.qv-bnf-autocomplete-container .hint-help-container .hint-help-content .syntax {
+  margin-top: 3px;
+  font-style: italic;
+  color: #303030;
+}
+.codearea-bnf-autocomplete-hints {
+  list-style: none;
+  width: 400px;
+  overflow: hidden;
+  overflow-y: auto;
+  max-height: 20em;
+  padding: 0px;
+  margin: 0px;
+}
+.codearea-bnf-autocomplete-hint {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 4px;
+  overflow: hidden;
+  color: #000000;
+  cursor: pointer;
+  border-bottom: 1px solid #D9D9D9;
+  height: 24px;
+  line-height: 24px;
+}
+.codearea-bnf-autocomplete-hint:last-child {
+  border-bottom: none;
+}
+.codearea-bnf-autocomplete-hint-active {
+  background-color: #F2F2F2;
+}
+.codearea-bnf-autocomplete-hint-text {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.codearea-bnf-autocomplete-hint-type {
+  padding-left: 5px;
+  -webkit-box-flex: 0;
+  -moz-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  font-size: 10px;
+}
+.codearea-bnf-autocomplete-hint-type.function {
+  color: #6A8FDE;
+}
+.codearea-bnf-autocomplete-hint-type.field {
+  color: #CC9966;
+}
+.codearea-bnf-autocomplete-hint-type.variable {
+  color: #CC99CC;
+}
+.codearea-bnf-autocomplete-hint-type.keyword {
+  color: #6A8FDE;
+}
+.codearea-bnf-autocomplete-hint-type.operator {
+  color: #000000;
+}
+.codearea-bnf-autocomplete-hint-type.template {
+  color: #ffb0b0;
+}
+.codearea-bnf-autocomplete-tips {
+  color: darkgray;
+  font-style: italic;
+}
+</style><style type="text/css">.qv-bnf-function-tip-container {
+  pointer-events: none;
+}
+.qv-bnf-function-tip-view {
+  pointer-events: auto;
+  z-index: 1021;
+  max-width: 50%;
+  position: relative;
+  padding: 2px 5px;
+  border-radius: 3px;
+  background: #ffb;
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.qv-bnf-function-tip-view .title {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 5px;
+}
+.qv-bnf-function-tip-view .syntax {
+  font-family: monospace;
+  font-size: 13px;
+  margin: 5px;
+}
+.qv-bnf-function-tip-view .description {
+  font-style: italic;
+  font-size: 13px;
+  margin-top: 5px;
+  margin: 5px;
+}
+.qv-bnf-function-tip-view .highlighted-tooltip-param {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-color: #3a7391;
+  margin: 5px;
+}
+</style><link rel="stylesheet" type="text/css" href="../resources/views/home/home.db2d840a1bc51191830a.css"><script charset="utf-8" src="../resources/views/home/home.19b12b69abc568696d05.js"></script><link rel="stylesheet" type="text/css" href="../resources/views/common/common.553406e57431773d3f71.css"><script charset="utf-8" src="../resources/views/common/common.eef4a3dcb791c366a37d.js"></script><link rel="stylesheet" type="text/css" href="../resources/views/common/analysis-common.a23c433aa0172160714b.css"><script charset="utf-8" src="../resources/views/common/analysis-common.afc1f49ac73e3e2367da.js"></script><link rel="stylesheet" type="text/css" href="../resources/views/app-overview/app-overview.ea1535b95694e78e98a3.css"><script charset="utf-8" src="../resources/views/app-overview/app-overview.50c3b7353c3ba56e459c.js"></script></head><body role="application" class="qv-client qv-card" data-root="../resources/"><div class="qv-preload-icons" style="opacity: 0">.</div><div class="qv-preload-font" style="opacity: 0">.</div><div id="qv-init-ui-blocker" style="display: none;"></div><div id="qv-page-container" class="qv-panel-wrap"><button class="qs-skip-to-content-button"><span> Saltar al contenido</span></button><div class="qs-header"><div class="qs-mobile-toolbar"><div class="qs-mobile-toolbar__left"><button type="button" class="lui-fade-button lui-fade-button--inverse lui-fade-button--large" tid="4dfd77"><span class="lui-icon lui-icon--previous lui-icon--large lui-fade-button__icon" aria-hidden="true"></span></button></div><div class="qs-mobile-toolbar__center"><h1 class="qs-mobile-toolbar__title" data-tid="toolbar-app-title">ConteosOracleVsAthena</h1></div><div class="qs-mobile-toolbar__right"><button type="button" class="lui-fade-button lui-fade-button--inverse lui-fade-button--large" tid="2fedac"><span class="lui-icon lui-icon--menu lui-icon--large lui-fade-button__icon" aria-hidden="true"></span></button></div></div></div><div tabindex="-1"></div><div id="qs-page-container"><div class="qs-ao-toolbar-s"><button type="button" class="lui-fade-button lui-fade-button--inverse qs-ao-nav__button qs-ao-nav__button--active" title="Hojas" tid="nav-sheet"><span class="lui-icon lui-icon--sheet" aria-hidden="true"></span></button><button type="button" class="lui-fade-button lui-fade-button--inverse qs-ao-nav__button" title="Marcadores" tid="nav-bookmark"><span class="lui-icon lui-icon--bookmark" aria-hidden="true"></span></button><button type="button" class="lui-fade-button lui-fade-button--inverse qs-ao-nav__button" title="Historias" tid="nav-story"><span class="lui-icon lui-icon--slide-show" aria-hidden="true"></span></button></div><div id="qv-appview-container" class="qv-appview"><div class="av-container ng-scope">
+	<!-- ngIf: is.navigator -->
+	<div class="av-content-container sheet-container" ng-class="{'qs-ao-sharing': features.sharing()}" tabindex="-1" ao-scroll="">
+		<!-- ngIf: sections.showError -->
+
+		<!-- ngIf: !is.bookmark && !sections.showError --><div qva-context-menu="onContextMenu( $event )" ng-if="!is.bookmark &amp;&amp; !sections.showError" class="ng-scope">
+			<!-- ngIf: sections.approved.show || features.sharing() -->
+			<!-- ngIf: sections.community.show -->
+			<!-- ngIf: sections.myPublished.show -->
+			<!-- ngIf: sections.myPrivate.show --><div tid="private-section" ng-if="sections.myPrivate.show" class="ng-scope">
+	<!-- Header -->
+	<!-- ngIf: sections.myPrivate.showHeaderLine || features.sharing() -->
+	<div class="qs-tb" aria-hidden="true">
+		<button class="header" tid="PrivateTitle" ng-click="toggleCollapse($event, 'myPrivate', is.sheet)" aria-label="Mis hojas. Esta sección contiene 1 hojas.">
+			<span class="lui-icon--triangle-bottom lui-icon section-c-indicator" q-title-translation="AppOverview.Collapse" aria-hidden="true" title="Contraer"></span>
+			<span class="section-title ng-binding" aria-hidden="true">Mis hojas</span>
+			<span tid="nmbInSection" aria-hidden="true" class="ng-binding"> (1)</span>
+		</button>
+	</div>
+
+	<!-- Sheets -->
+	<!-- ngIf: is.sheet && sections.myPrivate.sheets.expand && (exp.canCreateThisType || privateSheets.length) --><div ng-if="is.sheet &amp;&amp; sections.myPrivate.sheets.expand &amp;&amp; (exp.canCreateThisType || privateSheets.length)" class="ng-scope">
+		<!-- ngIf: !is.smallAppView --><ul class="qv-content-ul ng-scope qv-list" qv-sortable-list="sheetSortableItemLists" ng-if="!is.smallAppView" ng-class="{'qv-grid': is.grid, 'qv-list': !is.grid}" tid="PrivateSheets" aria-label=" ">
+
+			<!-- ngRepeat: item in privateSheets track by item.qInfo.qId --><li class="qv-content-li" qva-outside-ignore-for="listviewedit" ng-keydown="listKeyDown( $event )" data-action="goToItem" ng-attr-tabindex="{{tab}}" ng-focus="onFocus()" ng-blur="onBlur()" ng-class="{
+					'last': $last,
+					'can-sort': canSort(item),
+					'qv-add': item.addButton,
+					'ng-hide': item.addButton &amp;&amp; is.smalldevice,
+					'inEdit': inEdit,
+					'qv-active-item': isActive,
+					'qv-expandable-opened': isExpandableOpened
+					}" ng-repeat="item in privateSheets track by item.qInfo.qId" ng-style="item.style" type="'private'" data-name="243011cc-fd8d-4b97-930e-2b9cab08e3e3" tabindex="0">
+	<!-- ngIf: is.grid && !item.addButton -->
+	<!-- ngIf: !is.grid && !item.addButton --><div class="item-border-wrapper ng-scope" ng-class="item.classList" ng-if="!is.grid &amp;&amp; !item.addButton">
+	<div class="qv-content-item" ng-click="performAction($event)">
+		<div qv-ao-thumb="" item="item" islist="1" class="qv-thumb-wrap ng-isolate-scope" issheet="is.sheet" thumblayout="item.qData.thumbnail" thumbprop="thumbProps" editmode="inEdit"><!-- ngIf: showBorder -->
+<!-- ngIf: showBorder -->
+<div class="item-thumb" ng-class="{ editMode: editmode}">
+	<!-- ngIf: editmode -->
+	<!-- ngIf: !thumbUrl --><div ng-if="!thumbUrl" qv-item-thumb-generate="" class="ao-flex ng-scope" ng-class="extraClass" aria-hidden="true">
+		<!-- ngIf: ngImgSrc --><img qva-prevent-drag="" ng-if="ngImgSrc" class="item-thumb-img img-no-drag ng-scope" ng-src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAAC8CAYAAACqnxG6AAAJAElEQVR4Xu3c3YuNfRsG4HsSyXcpYoNISgml2EFK/AH+WxTle0OKekUk5COUEFs2nrd71XjN8+oxM8a61vlcx6opsdZ9Xb/j1NmsNWvN3OBGgACBKQnMTWmOMQQIEBi+F87nz5//4kGAwNQE/rNp06aDU5s2I4MUzowEYY12AgqnXeQOTKBOQOHU2ZtMoJ2AwmkXuQMTqBNQOHX2JhNoJ6Bw2kXuwATqBBROnb3JBNoJKJx2kTswgToBhVNnbzKBdgIKp13kDkygTkDh1NmbTKCdgMJpF7kDE6gTUDh19iYTaCegcNpF7sAE6gQUTp29yQTaCSicdpE7MIE6AYVTZ28ygXYCCqdd5A5MoE5A4dTZm0ygnYDCaRe5AxOoE1A4dfYmE2gnoHDaRe7ABOoEFE6dvckE2gkonHaROzCBOgGFU2dvMoF2AgqnXeQOTKBOQOHU2ZtMoJ2AwmkXuQMTqBNQOHX2JhNoJ6Bw2kXuwATqBBROnb3JBNoJKJx2kTswgToBhVNnbzKBdgIKp13kDkygTkDh1NmbTKCdgMJpF7kDE6gTUDh19iYTaCegcNpF7sAE6gQUTp29yQTaCSicdpE7MIE6AYVTZ28ygXYCCqdd5A5MoE5A4dTZm0ygnYDCaRe5AxOoE1A4dfYmE2gnoHDaRe7ABOoEFE6dvckE2gkonHaROzCBOgGFU2dvMoF2AgqnXeQOTKBOQOHU2ZtMoJ2AwmkXuQMTqBNQOHX2JhNoJ6Bw2kXuwATqBBROnb3JBNoJKJx2kTswgToBhVNnbzKBdgIKp13kDkygTkDh1NmbTKCdgMJpF7kDE6gTUDh19iYTaCegcNpF7sAE6gQUTp29yQTaCSicdpE7MIE6AYVTZ28ygXYCCqdd5A5MoE5A4dTZm0ygnYDCaRe5AxOoE1A4dfYmE2gnoHDaRe7ABOoEFE6dvckE2gkonHaROzCBOgGFU2dvMoF2AgqnXeQOTKBOQOHU2ZtMoJ2AwmkXuQMTqBNQOHX2JhNoJ6Bw2kXuwATqBBROnb3JBNoJKJx2kTswgToBhVNnb/JiBT59+jRs3rz5H+/+9OnTYe/evYu9pPvVCCicGndTlyJw6dKlYfv27cNYPCdPnvy/h168eHF49+7dcObMmWHHjh1LubT7TldA4UzX27SlCrx48WK4e/fu8OXLl+Hs2bOT4vnxduXKlWHdunWT724uXLgwnDt3bti2bdtSx7j/dAQUznScTVmuwNu3b4fx6/nz58PatWsnpTN/u3r16rB+/frh6NGjk78a73Pnzp3h9OnTw9atW5c70uP+nIDC+XO2rrxSAq9fv54Uy4+v44xls2XLluHQoUMLxjx+/Hh4+PDhcOrUqV++7rNS+7nOogUUzqKp3LFM4Nu3b8Pq1au/z7927drku5nxduDAgQXf4dy/f/972Yyv+czNzQ1fv3712k5ZegsGK5zZyMEWixX4sWzmH7Nv375h586dw717976Xzfg0bHyx+ciRI8PBgwcXe3n3+7MCCufP+rr6Sgr8rGzmrz8+vRp/gjX/tGssnFu3bk1eTN69e7enVysZxPKvpXCWb+eR0xRYStnM7zX+hGvXrl3TXNOsfxZQOP6HzL7Acspm9k/VckOF0zL2oEMrm6Cwfr2qwvm1kXtUCSymbDZs2DCsWrWqakVzlyagcJbm5d7TElhM2YwvEI8vDo/vNN64ceO0VjNn+QIKZ/l2HvmnBBZbNuP8+R9/79+/f7LOsWPH/tRarvv7Agrn9w1dYSUFllI249zxowzjO4vH288+a7WSu7nWbwsonN8mdIEVExjLZvwIw3h78ODBguv+/X024z++fPlyePXq1fDs2bNhfDfyeDt//vzkKZbbTAoonJmMpeFSY9msWbNmOH78+OT0t2/fHp48eTL588/K5keiy5cvD3v27Jl8uc20gMKZ6XiaLDeWzfiZpxMnTiw48fXr14ePHz8ueAfxz0jGz0/9/UOcTejSjqlw0hL7N+47PjUay2V8wXf+t/aNv8FvfFr148cV/o1nb3YmhdMs8Jk97ps3b4YbN24Mhw8fnuz46NEjZTOzaS17MYWzbDoPXHGB9+/fDzdv3py8kc93NivOOwsXVDizkIId/ifw4cOHSeH86pemM4sUUDiRsVmaQKaAwsnMzdYEIgUUTmRsliaQKaBwMnOzNYFIAYUTGZulCWQKKJzM3GxNIFJA4UTGZmkCmQIKJzM3WxOIFFA4kbFZmkCmgMLJzM3WBCIFFE5kbJYmkCmgcDJzszWBSAGFExmbpQlkCiiczNxsTSBSQOFExmZpApkCCiczN1sTiBRQOJGxWZpApoDCyczN1gQiBRROZGyWJpApoHAyc7M1gUgBhRMZm6UJZAoonMzcbE0gUkDhRMZmaQKZAgonMzdbE4gUUDiRsVmaQKaAwsnMzdYEIgUUTmRsliaQKaBwMnOzNYFIAYUTGZulCWQKKJzM3GxNIFJA4UTGZmkCmQIKJzM3WxOIFFA4kbFZmkCmgMLJzM3WBCIFFE5kbJYmkCmgcDJzszWBSAGFExmbpQlkCiiczNxsTSBSQOFExmZpApkCCiczN1sTiBRQOJGxWZpApoDCyczN1gQiBRROZGyWJpApoHAyc7M1gUgBhRMZm6UJZAoonMzcbE0gUkDhRMZmaQKZAgonMzdbE4gUUDiRsVmaQKaAwsnMzdYEIgUUTmRsliaQKaBwMnOzNYFIAYUTGZulCWQKKJzM3GxNIFJA4UTGZmkCmQIKJzM3WxOIFFA4kbFZmkCmgMLJzM3WBCIFFE5kbJYmkCmgcDJzszWBSAGFExmbpQlkCiiczNxsTSBSQOFExmZpApkCCiczN1sTiBRQOJGxWZpApoDCyczN1gQiBRROZGyWJpApoHAyc7M1gUgBhRMZm6UJZAoonMzcbE0gUkDhRMZmaQKZAgonMzdbE4gUUDiRsVmaQKaAwsnMzdYEIgUUTmRsliaQKaBwMnOzNYFIAYUTGZulCWQKKJzM3GxNIFJA4UTGZmkCmQIKJzM3WxOIFFA4kbFZmkCmQO/CyczM1gQIJAnMJS1rVwIEsgX+CwjOi/nOpz4BAAAAAElFTkSuQmCC" src="data:image/png;base64,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"><!-- end ngIf: ngImgSrc -->
+		<!-- ngIf: hasStorySvg -->
+	</div><!-- end ngIf: !thumbUrl -->
+	<!-- ngIf: thumbUrl -->
+	<div class="thumb-hover"></div>
+	<!-- ngIf: statusIndicator && !editmode -->
+</div></div>
+
+		<!-- ngIf: !inEdit --><div class="qv-details-wrap ng-scope" ng-if="!inEdit">
+			<div class="ao-mw">
+				<div class="qv-details-name">
+					<div class="qv-text ng-binding" id="item-title" title="Conteos" aria-hidden="true">Conteos</div>
+				</div>
+
+				<!-- ngIf: item.qMeta.published -->
+
+				<div class="description ng-binding" aria-hidden="true">&nbsp;</div>
+			</div>
+		</div><!-- end ngIf: !inEdit -->
+		<!-- ngIf: inEdit -->
+		<!-- ngIf: item.permissions.update && !is.smalldevice -->
+	</div>
+	<label class="hidden-screen-reader-label" id="sr-details-label" aria-live="assertive"></label>
+</div><!-- end ngIf: !is.grid && !item.addButton -->
+	<!-- ngIf: item.addButton && exp.canCreateThisType -->
+</li><!-- end ngRepeat: item in privateSheets track by item.qInfo.qId --><li class="qv-content-li  last qv-add ng-hide" qva-outside-ignore-for="listviewedit" ng-keydown="listKeyDown( $event )" data-action="goToItem" ng-attr-tabindex="{{tab}}" ng-focus="onFocus()" ng-blur="onBlur()" ng-class="{
+					'last': $last,
+					'can-sort': canSort(item),
+					'qv-add': item.addButton,
+					'ng-hide': item.addButton &amp;&amp; is.smalldevice,
+					'inEdit': inEdit,
+					'qv-active-item': isActive,
+					'qv-expandable-opened': isExpandableOpened
+					}" ng-repeat="item in privateSheets track by item.qInfo.qId" ng-style="item.style" type="'private'" data-name="-100">
+	<!-- ngIf: is.grid && !item.addButton -->
+	<!-- ngIf: !is.grid && !item.addButton -->
+	<!-- ngIf: item.addButton && exp.canCreateThisType --><div class="item-border-wrapper ng-scope" ng-if="item.addButton &amp;&amp; exp.canCreateThisType">
+	<div ng-click="funcs.addItem( $event )" tid="cont-add" class="qv-content-item" tabindex="-1">
+		<div class="qv-add-cont">
+			<div class="ao-icon">
+				<span class="lui-icon  lui-icon--plus"></span>
+			</div>
+			<div class="ao-text-wrapper">
+				<div class="ao-text" q-translation="AppOverview.Toolbar.CreateNewSheet">Crear nueva hoja</div>
+			</div>
+		</div>
+	</div>
+</div><!-- end ngIf: item.addButton && exp.canCreateThisType -->
+</li><!-- end ngRepeat: item in privateSheets track by item.qInfo.qId -->
+		</ul><!-- end ngIf: !is.smallAppView -->
+		<!-- SmallDevices -->
+		<!-- ngIf: is.smallAppView -->
+	</div><!-- end ngIf: is.sheet && sections.myPrivate.sheets.expand && (exp.canCreateThisType || privateSheets.length) -->
+
+	<!-- Stories -->
+	<!-- ngIf: is.story && sections.myPrivate.stories.expand && (exp.canCreateThisType || privateStories.length) -->
+</div><!-- end ngIf: sections.myPrivate.show -->
+		</div><!-- end ngIf: !is.bookmark && !sections.showError -->
+		<!-- Bookmarks -->
+		<!-- ngIf: is.bookmark -->
+	</div>
+</div>
+</div></div><div class="senseloader-block-ui" tid=""><div class="senseloader-icon-pong"><svg viewBox="-53 0 200 73"><g fill="none"><path fill="#00994C" d="M9.234 43.722v1.032H8.36v-1.032h.874zm0-33.536v3.763l18.344.001v5.712H9.234v4.2h11.88v-3.286h.874v4.16H9.234v3.306h22.52v5.712H9.234v4.2h15.175V34.67h.876v4.158H9.234v3.76H8.36V10.186h.874zM85.91 39.62v1.144h-1.346V39.62h1.346zm-2.83-16.11v1.147h-1.413V39.62h1.413v1.144H45.758V39.62h1.105v-8.428h-1.106V30.05h3.582l1.834-1.834h4.394l3.844 3.846h5.152l6.48-6.482h4.366l2.068-2.068h5.602zM43.191 39.62v1.144h-3.508V39.62h3.508zm31.211-12.896h-1.918V39.62h1.919V26.724zM49.925 31.08l-.112.113h-1.806v8.427h1.918v-8.54zm3.058-1.722h-1.336l-.578.578v9.684h1.914V29.358zm2.11 0h-.966V39.62h1.916v-9.312l-.95-.95zm2.094 2.095v8.167h1.914v-6.416h-.164l-1.75-1.75zm4.976 1.751h-1.918v6.416h1.919v-6.416zm3.06-.186l-.186.187h-1.73l.001 6.415h1.915v-6.602zm3.058-3.058l-1.914 1.914v7.746h1.914v-9.66zm3.06-3.06l-1.916 1.916V39.62h1.916V26.9zm6.122-1.754l-1.58 1.579h-.336l.001 12.895h1.915V25.146zm3.06-.49h-1.916V39.62h1.916V24.656zM43.192 34.834v1.144h-3.508v-1.144h3.508zm-12.314-5.918H9.236v3.962h21.642v-3.962zm12.314 1.132v1.144h-3.508v-1.144h3.508zm0-4.786v1.144h-3.508v-1.144h3.508zM83.08 14.41v1.144h-3.74l-6.512 6.51h-2.632L66.55 18.42h-4.51l-2.96 2.958h-3.042l-3.678 3.678h-3.758l-1.248-1.246h-1.596v-1.144h2.07l1.246 1.248h2.812l3.68-3.68h3.042l2.96-2.96h5.456l3.646 3.646h1.686l6.508-6.51h4.216zm-39.888 6.066v1.144h-3.508v-1.144h3.508zm-16.49-5.652H9.236v3.962h17.466v-3.962zm16.49.866v1.144h-3.508V15.69h3.508zm0-4.788v1.144h-3.508v-1.144h3.508zM9.234 8.06v1.03H8.36V8.06h.874z"></path><path fill="#53555A" d="M1.838 49.748h90V4.604a2.768 2.768 0 00-2.764-2.766H4.602a2.768 2.768 0 00-2.764 2.766v45.144zm90 9.108v-7.27h-90v7.27c0 .512.416.928.926.928h88.148c.51 0 .926-.416.926-.928zM56.022 70.54L54.5 61.622H39.178l-1.524 8.918h18.368zM89.074 0a4.607 4.607 0 014.602 4.604v54.252a2.77 2.77 0 01-2.764 2.766H56.364l1.524 8.918h8.672v1.838H27.116V70.54h8.672l1.524-8.918H2.764A2.77 2.77 0 010 58.856V4.604A4.607 4.607 0 014.602 0h84.472zM51.506 54.354v1.838h-9.204v-1.838h9.204z"></path></g></svg><div class="senseloader-pong-progress"></div></div><div class="senseloader-text "><div></div><div></div><div class="senseloader-button"></div></div></div></div><div id="dialogContainer"></div><script type="text/javascript" src="../resources/core-js.9fc01b668e34dc00d85c.js" onerror="modifyScriptEl(this)"></script><script type="text/javascript" src="../resources/axios.348e01f9488584f4ad55.js" onerror="modifyScriptEl(this)"></script><script type="text/javascript" src="../resources/regenerator-runtime.3bc68bb2b8a3c2e09eef.js" onerror="modifyScriptEl(this)"></script><script type="text/javascript" src="../resources/rollbar.04c9fcfff609c3be20c7.js" onerror="modifyScriptEl(this)"></script><script type="text/javascript" src="../resources/app/app.dd567f8dd0d732228652.js" onerror="modifyScriptEl(this)"></script></body></html>

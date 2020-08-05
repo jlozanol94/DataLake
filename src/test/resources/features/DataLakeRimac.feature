@@ -16,4 +16,4 @@ Feature: AWS Data lake repository
     Examples:
       | id | escenarios | nombreQvf |
       ##@externaldata@./src/test/resources/DataDriven/EjecucionQlikSenseMedellin.xlsx@QlikSenseMedellin@1
-   |1   |Verificacion conteos Athena   |ConteosOracleVsAthena|
+   |1   |Verificacion Enmascaramiento Sql Server   |ConteosOracleVsAthena|
